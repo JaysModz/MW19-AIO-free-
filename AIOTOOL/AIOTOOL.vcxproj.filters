@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{b956de5c-6e35-4c3e-ac28-d0d4da1e2299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{2ac5c02c-2a10-4c32-8676-db6631e02f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{52074d17-f349-4ed7-ba4b-97d481610d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keiro">
+      <UniqueIdentifier>{6549ee59-ec87-42c8-b8c6-8ca76e0d8542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{bf284f2b-299c-45c8-ad4e-9a3449d8e968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{230acc45-9db6-41d2-8ae6-7002594a8540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{33482956-84fe-4134-becd-fe18a30b066c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random shit">
+      <UniqueIdentifier>{4db32913-c7c6-4bf7-9cbf-2c5870982632}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\ImGui_ShaderBlobs.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\kiero\kiero.h">
+      <Filter>keiro</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_draw_api.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="cousine.hpp">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="droid.hpp">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.hpp">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="imguipp_v2.h">
+      <Filter>random shit</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>random shit</Filter>
+    </ClInclude>
+    <ClInclude Include="Roboto-Bold.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_knobs.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\FontAwesome6\fa-solid-900.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\FontAwesome6\font_awesome_6.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\FontAwesome6\fa-regular-400.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\FontAwesome5\fa-solid-900.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\FontAwesome5\font_awesome_5.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\Awesome.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\AIO UI\AxeraVision - Nuke GUI - SwixliysAIO - Copy\Fonts\Awesome_Light.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\ImGui_ShaderBlobs.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\kiero\kiero.cpp">
+      <Filter>keiro</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="color.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_knobs.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
